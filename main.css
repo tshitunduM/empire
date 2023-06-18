@@ -13,7 +13,8 @@ body {
   padding: 0;
   background-size: cover;
   background-position: center;
-  font-family: "Merriweather", serif;
+  /* font-family: "Merriweather", serif; */
+  font-family: "Inter", sans-serif;
 }
 
 html {
@@ -91,7 +92,9 @@ html {
 .navbar__menu-link {
   text-decoration: none;
   color: #000;
-  font: 600 15px "Open Sans", sans-serif;
+  /* font: 600 15px "Open Sans", sans-serif; */
+  /* font-family: "Inter", sans-serif; */
+  font-weight: 600;
   /* padding: 20px var(--navbar__menu-link-padding-x); */
   display: block;
   padding-left: 1.5rem;
@@ -159,6 +162,7 @@ nav img {
   color: var(--primary);
   text-transform: capitalize;
   font-weight: 700;
+  font-family: "Merriweather", serif;
   font-size: 70px;
   line-height: 30px;
 }
@@ -193,6 +197,10 @@ nav img {
   height: fit-content;
 }
 
+.about-us p {
+  text-align: justify;
+}
+
 .p-4 {
   padding: 40px;
 }
@@ -203,6 +211,7 @@ nav img {
   text-align: center;
   width: 100%;
   color: var(--primary);
+  font-family: "Merriweather", serif;
 }
 .btn {
   background: var(--primary);
@@ -236,6 +245,7 @@ nav img {
 .our-services h1 {
   font-size: 35px;
   line-height: 35px;
+  font-family: "Merriweather", serif;
 }
 
 .our-services h3 {
@@ -292,6 +302,7 @@ nav img {
 
 .solution .left p {
   margin-top: 20px;
+  text-align: justify;
 }
 
 .solution .left h1 {
@@ -300,6 +311,7 @@ nav img {
 
 .solution h1 {
   color: var(--primary);
+  font-family: "Merriweather", serif;
 }
 
 /* THIS IS THE PROJECTS SECTION */
@@ -313,6 +325,7 @@ nav img {
 .our-projects h1 {
   font-size: 35px;
   line-height: 35px;
+  font-family: "Merriweather", serif;
 }
 
 .our-projects h3 {
@@ -331,6 +344,10 @@ nav img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
 }
 
 .our-projects .s-two {
@@ -339,11 +356,35 @@ nav img {
   align-items: center;
 }
 
-.our-projects img {
-  width: 350px;
-  height: 250px;
+/* .our-projects img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 5px;
+} */
+
+.project-image-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.our-projects .s-content:hover .project-image-hover {
+  opacity: 1;
+}
+
+.project-image,
+.project-image-hover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.our-projects .s-three {
+  margin-bottom: 50px;
 }
 
 /* THIS IS THE FOOTER SECTION */
