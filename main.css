@@ -31,7 +31,11 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid gray;
+  /* border-bottom: 1px solid gray; */
+  position: fixed;
+  z-index: 999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 
 .top-nav .left {
@@ -50,7 +54,8 @@ html {
 .one,
 .two {
   padding-right: 15px;
-  border-right: 1px solid gray;
+  /* border-right: 1px solid gray; */
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .left span {
@@ -69,6 +74,7 @@ html {
 
 .navbar {
   border-bottom: 1px solid gray;
+  margin-top: 50px;
 }
 
 .nav-container {
@@ -381,6 +387,7 @@ nav img {
   height: 100%;
   object-fit: cover;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .our-projects .s-three {
