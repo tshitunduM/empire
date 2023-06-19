@@ -6,6 +6,7 @@
 
 :root {
   --primary: #f4ac0c;
+  /* --primary: rgb(244, 172, 12); */
 }
 
 body {
@@ -182,7 +183,7 @@ nav img {
 }
 
 .fa-solid {
-  color: #f4ac0c;
+  color: var(--primary);
 }
 
 /* ABOUT US BEGINS HERE*/
@@ -196,11 +197,12 @@ nav img {
 }
 .about-us img {
   height: 400px;
-  width: 750px;
+  width: 100%;
   object-fit: cover;
 }
 .half {
   height: fit-content;
+  width: 50%;
 }
 
 .about-us p {
@@ -244,6 +246,7 @@ nav img {
   display: flex;
   flex-direction: column;
   background-color: #e6e6e6;
+  /* background-color: rgba(244, 172, 12, 0.05); */
   text-align: center;
   overflow: hidden;
 }
@@ -294,6 +297,14 @@ nav img {
 
 .solution {
   display: flex;
+}
+
+.solution .left {
+  width: 50%;
+}
+
+.solution .right {
+  width: 50%;
 }
 
 .solution .span-i {
