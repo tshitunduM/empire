@@ -245,7 +245,8 @@ nav img {
 .our-services {
   display: flex;
   flex-direction: column;
-  background-color: #e6e6e6;
+  background-color: #f2f3f6;
+  /* background-color: #22273a; */
   /* background-color: rgba(244, 172, 12, 0.05); */
   text-align: center;
   overflow: hidden;
@@ -335,7 +336,8 @@ nav img {
 .our-projects {
   display: flex;
   flex-direction: column;
-  background-color: lightgray;
+  /* background-color: lightgray; */
+  background-color: #f2f3f6;
   text-align: center;
 }
 
