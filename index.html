@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Empire Precast</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -42,7 +42,7 @@
           ><span>51 Paragon Pl, Phoenix, Durban, 4001</span>
         </div>
       </div>
-      <div class="right"><button>Order Material</button></div>
+      <div class="right"><button>Get a Free Quote</button></div>
     </div>
 
     <!-- #############################################################################################
@@ -94,9 +94,11 @@
       <div class="hero-info">
         <div class="content">
           <h3>
-            Suppliers of Block & Beam Decking Materials for over a decade.
+            Durban Suppliers of Block & Beam Decking Materials for over a
+            decade.
           </h3>
           <h1>Empire Precast Concrete</h1>
+          <div class="right"><button>Get a Free Quote</button></div>
         </div>
       </div>
     </div>
@@ -128,6 +130,31 @@
     </div>
 
     <!-- #############################################################################################
+    THIS IS THE NUMBERS COUNTDOWN SECTION
+    ############################################################################################# -->
+
+    <div class="counters">
+      <div>
+        <div class="counter">
+          <h1><span data-count="156">0</span></h1>
+          <h3>Projects Completed</h3>
+        </div>
+        <div class="counter">
+          <h1><span data-count="132">0</span></h1>
+          <h3>Satisfied Clients</h3>
+        </div>
+        <div class="counter">
+          <h1><span data-count="5">0</span></h1>
+          <h3>Ongoing Projects</h3>
+        </div>
+        <div class="counter">
+          <h1><span data-count="10">0</span>+</h1>
+          <h3>Years Experience</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- #############################################################################################
     THIS IS THE SERVICES HERO SECTION
     ############################################################################################# -->
 
@@ -135,29 +162,46 @@
       <h1>Our Services</h1>
       <div class="s-three">
         <div class="s-content">
-          <img src="1.png" alt="#" />
-          <h3>Engineer Designed Slab Solutions</h3>
-        </div>
-        <div class="s-content p-5">
-          <img src="2.png" alt="#" />
-          <h3>Full Design & Bending Schedules</h3>
+          <div class="imgbox"><img src="1.png" alt="#" /></div>
+          <div class="content-os">
+            <h3>Engineer Designed Slab Solutions</h3>
+          </div>
         </div>
         <div class="s-content">
-          <img src="3.png" alt="#" />
-          <h3>Manufacturing & Delivery of Slab Components</h3>
+          <div class="imgbox"><img src="2.png" alt="#" /></div>
+          <div class="content-os"><h3>Full Design & Bending Schedules</h3></div>
+        </div>
+        <div class="s-content">
+          <div class="imgbox"><img src="3.png" alt="#" /></div>
+          <div class="content-os">
+            <h3>Manufacturing & Delivery of Slab Components</h3>
+          </div>
         </div>
       </div>
       <div class="s-two">
         <div class="s-content">
-          <img src="4.png" alt="#" />
-          <h3>Installation & Concreting Teams</h3>
+          <div class="imgbox"><img src="4.png" alt="#" /></div>
+          <div class="content-os"><h3>Installation & Concreting Teams</h3></div>
+        </div>
+        <div class="s-content-1">
+          <a><button id="read-more-btn" class="btn">View Services</button></a>
         </div>
         <div class="s-content">
-          <img src="5.png" alt="#" />
-          <h3>On-site Techinical Back-up & Consultation</h3>
+          <div class="imgbox"><img src="5.png" alt="#" /></div>
+          <div class="content-os">
+            <h3>On-site Techinical Back-up & Consultation</h3>
+          </div>
         </div>
       </div>
-      <a><button id="read-more-btn" class="btn">View Services</button></a>
+      <!-- <a><button id="read-more-btn" class="btn">View Services</button></a> -->
+    </div>
+
+    <!-- #############################################################################################
+    SECOND CTA ON THE PAGE
+    ############################################################################################# -->
+    <div class="s-cta">
+      <h1>Are you ready to order, you're just a few steps away!</h1>
+      <button>Yes, Get a Free Quote</button>
     </div>
 
     <!-- #############################################################################################
@@ -258,7 +302,71 @@
     </div>
 
     <!-- #############################################################################################
-    THIS IS THE VIDEO HERO SECTION
+    THIS REVIEWS SECTION
+    ############################################################################################# -->
+    <div class="reviews">
+      <h1>Google Reviews</h1>
+      <h3>What our clients think of us</h3>
+      <div class="sk-ww-google-reviews" data-embed-id="163262"></div>
+      <script
+        src="https://widgets.sociablekit.com/google-reviews/widget.js"
+        async
+        defer
+      ></script>
+    </div>
+
+    <!-- #############################################################################################
+    THIS CONTACT SECTION
+    ############################################################################################# -->
+
+    <!-- Contact Section -->
+    <div id="contact" class="contact">
+      <div class="page-header">
+        <h1>Make your order</h1>
+        <h2>You are 3 simple steps away</h2>
+      </div>
+      <form action="#">
+        <div class="row">
+          <div class="column">
+            <label class="sr-only" for="name">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter Name"
+              required
+            />
+            <label class="sr-only" for="name">Phone number</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="name"
+              placeholder="Phone number"
+              required
+            />
+            <button>Get a Free Quote</button>
+          </div>
+          <div class="column">
+            <label class="sr-only" for="message">Message</label>
+            <textarea
+              type="text"
+              class="form-control"
+              id="message"
+              placeholder="Write your message..."
+              required
+            ></textarea>
+            <div class="wapp">
+              <h3>Or Just send a message via WhatsApp</h3>
+              <span><img src="icons8-downward-arrow-96.png" alt="#" /></span>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- End of Contact Section -->
+
+    <!-- #############################################################################################
+    THIS FOOTER SECTION
     ############################################################################################# -->
 
     <footer class="footer">
@@ -278,5 +386,77 @@
       <hr />
       <h4>© Empire Precast Concrete 2023</h4>
     </footer>
+
+    <!-- #############################################################################################
+    WHATSAPP CODE BELOW
+    ############################################################################################# -->
+
+    <!-- WhatsApp icon -->
+    <a
+      href="https://api.whatsapp.com/send?phone=YOUR-PHONE-NUMBER"
+      target="_blank"
+      class="whatsapp-icon"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- #############################################################################################
+    JAVASCRIPT CODES BELOW
+    ############################################################################################# -->
+    <script>
+      const counters = document.querySelectorAll(".counters span");
+      const container = document.querySelector(".counters");
+      //variables that tracks if the counters have been activated
+      let activated = false;
+
+      //add scroll event to the page
+      window.addEventListener("scroll", () => {
+        /*if the page is scrolled to the containers element and the counters are not activated*/
+        if (
+          pageYOffset > container.offsetTop - container.offsetHeight - 200 &&
+          activated === false
+        ) {
+          counters.forEach((counter) => {
+            //set counter values to zero
+            counter.innerText = 0;
+            // set count variables to track the count
+            let count = 0;
+
+            //update count function
+            function updateCount() {
+              //get counter target number to count to
+              const target = parseInt(counter.dataset.count);
+              //as long as the count is below the target number
+              if (count < target) {
+                //increment the count
+                count++;
+                //set the counter text to the count
+                counter.innerText = count;
+                //repeat this every 10 milliseconds
+                setTimeout(updateCount, 10); //count spped and when the target is reached
+              } else {
+                //set the counter text to the target number
+                counter.innerText = target;
+              }
+            }
+            //run the function initially
+            updateCount();
+            //set activated to true
+            activated = true;
+          });
+        } else if (
+          pageYOffset < container.offsetTop - container.offsetHeight - 500 ||
+          (pageYOffset === 0 && activated === true)
+        ) {
+          //select all counters
+          counters.forEach((counter) => {
+            //set counter text back to zero
+            counter.innerText = 0;
+          });
+          //set actiivated to false
+          activated = false;
+        }
+      });
+    </script>
   </body>
 </html>
